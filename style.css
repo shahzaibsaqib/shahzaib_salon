@@ -1,0 +1,580 @@
+/* =========================
+   GLOBAL STYLE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+
+section{
+
+    padding:80px 0;
+
+}
+
+
+
+
+/* =========================
+   TOP BAR
+========================= */
+
+
+.top-bar{
+
+    background:#111;
+    padding:12px 0;
+    font-size:14px;
+    border-bottom:1px solid #333;
+
+}
+
+
+.top-info{
+
+    display:flex;
+    justify-content:space-between;
+    color:#ddd;
+
+}
+
+
+.top-info i{
+
+    color:#c9a227;
+    margin-right:8px;
+
+}
+
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+
+.navbar{
+
+    background:#000;
+    padding:18px 0;
+}
+
+
+.navbar-brand{
+
+    font-size:28px;
+    font-weight:700;
+    color:white!important;
+
+}
+
+
+.navbar-brand span{
+
+    color:#c9a227;
+
+}
+
+
+.nav-link{
+
+    color:white!important;
+    margin-left:20px;
+    transition:.3s;
+
+}
+
+
+.nav-link:hover,
+.nav-link.active{
+
+    color:#c9a227!important;
+
+}
+
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+
+.hero-section{
+
+    height:90vh;
+    background-image:url("https://images.unsplash.com/photo-1522337360788-8b13dee7a37e");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    display:flex;
+    align-items:center;
+
+}
+
+
+.hero-overlay{
+
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.65);
+
+}
+
+
+.hero-content{
+
+    position:relative;
+    max-width:650px;
+
+}
+
+
+.hero-content h1{
+
+    font-size:55px;
+    font-weight:700;
+
+}
+
+
+.hero-content p{
+
+    font-size:18px;
+    color:#ddd;
+    margin:25px 0;
+
+}
+
+
+
+.main-btn,
+.whatsapp-btn{
+
+    display:inline-block;
+    padding:14px 30px;
+    border-radius:30px;
+    margin-right:10px;
+    transition:.4s;
+    color:white;
+
+}
+
+
+.main-btn{
+
+    background:#c9a227;
+
+}
+
+
+.whatsapp-btn{
+
+    background:#25D366;
+
+}
+
+
+
+.main-btn:hover,
+.whatsapp-btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+
+.about-section{
+
+    background:#111;
+
+}
+
+
+.about-image-card{
+
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(201,162,39,.3);
+
+}
+
+
+
+.about-image-card img{
+
+    width:100%;
+    transition:.5s;
+
+}
+
+
+.about-image-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+.about-section h2{
+
+    font-size:40px;
+    color:#c9a227;
+
+}
+
+
+.about-section p{
+
+    color:#ccc;
+    line-height:1.8;
+
+}
+
+
+
+
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:50px;
+
+}
+
+
+.section-title h2{
+
+    color:#c9a227;
+    font-size:40px;
+
+}
+
+
+.section-title p{
+
+    color:#bbb;
+
+}
+
+
+
+
+
+/* =========================
+   SERVICES 3D CARDS
+========================= */
+
+
+.services-section{
+
+    background:#0b0b0b;
+
+}
+
+
+
+.service-card{
+
+    background:#151515;
+    border-radius:20px;
+    overflow:hidden;
+    padding-bottom:25px;
+    text-align:center;
+    transition:.5s;
+    transform-style:preserve-3d;
+    box-shadow:0 15px 30px rgba(0,0,0,.5);
+
+}
+
+
+
+.service-card:hover{
+
+    transform:translateY(-15px) rotateX(5deg);
+
+}
+
+
+
+.service-card img{
+
+    width:100%;
+    height:230px;
+    object-fit:cover;
+
+}
+
+
+
+.service-card h4{
+
+    margin-top:20px;
+    color:#c9a227;
+
+}
+
+
+.service-card p{
+
+    padding:0 20px;
+    color:#ccc;
+
+}
+
+
+
+
+
+/* =========================
+   GALLERY
+========================= */
+
+
+.gallery-preview{
+
+    background:#111;
+
+}
+
+
+
+.gallery-box{
+
+    overflow:hidden;
+    border-radius:20px;
+
+}
+
+
+.gallery-box img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    transition:.5s;
+
+}
+
+
+
+.gallery-box:hover img{
+
+    transform:scale(1.1);
+
+}
+
+
+
+
+
+/* =========================
+   INSTAGRAM
+========================= */
+
+
+.instagram-section{
+
+    background:#000;
+    text-align:center;
+
+}
+
+
+
+.instagram-btn{
+
+    background:#d62976;
+    color:white;
+    padding:14px 35px;
+    border-radius:30px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   AI CHAT BOX
+========================= */
+
+
+#ai-chat{
+
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    z-index:999;
+
+}
+
+
+
+.ai-button{
+
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:none;
+    background:#c9a227;
+    color:black;
+    font-size:25px;
+
+}
+
+
+
+.ai-box{
+
+    display:none;
+    width:330px;
+    background:#151515;
+    border-radius:15px;
+    overflow:hidden;
+    position:absolute;
+    bottom:80px;
+    right:0;
+    box-shadow:0 0 30px black;
+
+}
+
+
+
+.ai-header{
+
+    background:#c9a227;
+    color:black;
+    padding:15px;
+
+}
+
+
+
+.ai-message{
+
+    padding:20px;
+    color:#ddd;
+
+}
+
+
+
+.ai-input{
+
+    display:flex;
+    padding:10px;
+
+}
+
+
+
+.ai-input input{
+
+    flex:1;
+    padding:10px;
+    background:#222;
+    border:none;
+    color:white;
+
+}
+
+
+.ai-input button{
+
+    background:#c9a227;
+    border:none;
+    padding:10px 15px;
+
+}
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer{
+
+    background:#000;
+    padding:50px 0;
+    color:#bbb;
+
+}
+
+
+footer h3,
+footer h4{
+
+    color:#c9a227;
+
+}
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+
+@media(max-width:768px){
+
+
+.hero-content h1{
+
+    font-size:35px;
+
+}
+
+
+.top-info{
+
+    flex-direction:column;
+    gap:10px;
+
+}
+
+
+.nav-link{
+
+    margin-left:0;
+
+}
+
+
+}
